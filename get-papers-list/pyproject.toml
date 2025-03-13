@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "get-papers-list"
+version = "1.0.0"
+description = "A Python program to fetch research papers based on a user-specified query."
+authors = ["Praba <praba@gmail.com"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.25.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
