@@ -1,2 +1,0 @@
-# get-papers-list
-Task
